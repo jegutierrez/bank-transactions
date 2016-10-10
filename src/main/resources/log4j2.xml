@@ -11,7 +11,7 @@
                 </pattern>>
             </PatternLayout>
         </Console>
-        <RandomAccessFile name="App-Appender" fileName="${path}/app_log.log" >
+        <RandomAccessFile name="App-Appender" fileName="${path}/transactions.log" >
             <PatternLayout>
                 <pattern>
                     [%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %msg%n
