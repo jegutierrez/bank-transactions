@@ -1,6 +1,7 @@
-## bank-transactions
+# bank-transactions
 API REST para procesar transacciones bancarias usando Spring Boot, con persistencia 
-en memoria con JPA y Hibernate usando base de datos H2
+en memoria con JPA y Hibernate usando base de datos H2, las transacciones se procesan 
+de forma asincrona usando un threadpool.
 
 
 ## Especificaciones tecnicas
@@ -27,7 +28,7 @@ $ mvn clean package
 ```sh
 $ mvn spring-boot:run
 ```
-
+- La aplicacion queda disponible en: **http://localhost:8080**
 
 ## Descripcion
 La aplicacion cuenta con 5 cuentas precargadas, y tiene disponibles los siguientes endpoint:
